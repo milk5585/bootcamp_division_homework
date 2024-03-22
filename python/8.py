@@ -5,7 +5,9 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-
+    n = input('12이하의 정수를 입력하세요: ')
+    print('1부터 n까지의 합' : add )
+    
     return
 
 

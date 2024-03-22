@@ -5,7 +5,12 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-
+    a = input('나이를 입력하세요: ')
+    b = input('키를 입력하세요:')
+    if a < 14 or b < 160:
+        print('O')
+    if a > 13 or b>=160:
+        print('X')
     return
 
 

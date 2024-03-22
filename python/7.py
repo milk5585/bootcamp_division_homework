@@ -5,7 +5,18 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-
+    a = input ('연도를 입력하세요: ')
+    b = input ('월을 입력하세요: ')
+    if a == 4 or 6 or 9 or 11 :
+        print('30')
+    if a == 2 and type (b/400) == int :
+        print('29')
+    if a == 2 and type (b/400) != int :
+        print('28')
+    else :
+        print('31')    
+    
+    
     return
 
 

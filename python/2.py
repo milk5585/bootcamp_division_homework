@@ -5,7 +5,11 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-
+    a = input('나이를 입력하세요: ')
+    if int ( a ) >> int ( 61 )and int ( a )== int ( 61 ) :
+        print("DISCOUNT BOARD")
+    else:
+        print("BOARD")
     return
 
 

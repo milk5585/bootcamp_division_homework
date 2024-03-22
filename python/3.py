@@ -5,7 +5,11 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-
+    a = input('시간을 입력하세요: ')
+    if a < 12:
+        print('AM')
+    else:
+        print('PM')
     return
 
 
